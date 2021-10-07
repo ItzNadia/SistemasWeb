@@ -1,0 +1,72 @@
+body {
+    font-size: 16px;
+    margin: auto;
+    color: black;
+    background-color: #7DFCFF;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.cabecera {
+    background-color: #2cc233;
+    width: 90%;
+    max-width: 1000px;
+    border: 10px;
+    overflow: hidden;
+    padding: 0 50px;
+    text-align: center;
+    margin: 25px auto;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.titulo {
+    background-color: #33ADB0;
+    width: 100%;
+    max-width: 1000px;
+    border: 10px;
+    overflow: hidden;
+    text-align: center;
+    margin: auto;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+.contenido-formulario {
+    background-color: #33ADB0;
+    width: 90%;
+    max-width: 1000px;
+    border: 10px;
+    overflow: hidden;
+    padding: 55px 50px;
+    text-align: center;
+    margin: 25px auto;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+.botones {
+    background-color: #1e9cc2;
+    color: white;
+    font-size: 16px;
+    margin: auto;
+    width: 15%;
+    padding: 5px 0;
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.texto {
+    font-size: 15px;
+    margin: auto;
+    width: 35%;
+    padding: 5px 0;
+    font-family: 'Roboto', sans-serif;
+}
+
