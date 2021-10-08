@@ -20,23 +20,20 @@
     <form>
         <div class="contenido-formulario">
         <p>
-            <label for="nombre">Correo:<sup></sup></label>
+            <div class="mb-3">
+                <label for="usuario" class="form-label">Usuario: </label>
+                <input type="text" name="usu" class="form-control" id="usuario" placeholder="Nombre de usuario" required>
+              </div>
         </p>
         <p>
-            <input type="text" name="correo" id="correo" class="texto">
-        </p>
-        <p>
-            <label for="apellido">Contraseña:<sup></sup></label>
-        </p>
-        <p>
-            <input type="password" name="constrasena" id="contrasena" class="texto">
+            <label for="password" class="form-label">Contraseña: </label>
+            <input type="password" name="pass" class="form-control" id="password" minlength="5" maxlength="10" placeholder="Escribe tu contraseña" required>
         </p>
       
         </div>
-            <input type="submit" value="Entrar" class=botones>
-            <input type="reset" value="Borrar" class=botones>
-        </div>
+            <button type="button" class="botones" id="enviar">Entrar</button>
     </div>
+    <script src="validar.js"></script>
     </form>
 </body>
 </html>
